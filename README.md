@@ -1,4 +1,4 @@
-### Ping with Python and asyncio
+# Ping with Python and asyncio
 
 This script uses the ping subprocess. Modify the values in settings.py:
 
