@@ -12,3 +12,7 @@ Run the script
 ```bash
 python async.py
 ```
+
+## Requirements
+
+pandas==1.4.4
