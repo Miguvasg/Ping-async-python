@@ -10,7 +10,6 @@ from settings import CONCURRENT_TASKS, NETWORKS
 # wait_resources is to limit the number of processes at a time, since if it is 
 # not limited, an OSError appears for the number of open files when there are 
 # many NETWORKS to be validated
-# The number of CONCURRENT_TASKS depends on the machine and the connection
 def wait_resources(concurrent_tasks=1):
     semaphore = asyncio.Semaphore(concurrent_tasks)
     def wrapper(function):
